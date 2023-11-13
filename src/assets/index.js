@@ -3,7 +3,7 @@ import avatarKady from "./avatar-kady.jpg";
 import avatarArthur from "./avatar-arthur.jpg";
 import avatarAiysha from "./avatar-aiysha.jpg";
 import avatarNikita from "./avatar-nikita.jpg";
-import avatarChristian from "./avatar-Christian.jpg";
+import avatarChristian from "./avatar-christian.jpg";
 import avatarCruz from "./avatar-Cruz.jpg";
 import avatarDrake from "./avatar-drake.jpg";
 import avatarGriffin from "./avatar-Griffin.jpg";
