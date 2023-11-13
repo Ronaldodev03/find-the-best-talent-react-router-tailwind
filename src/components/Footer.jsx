@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 const Footer = () => {
   return (
-    <footer className=" overflow-hidden">
+    <div className=" overflow-hidden">
       <motion.div
         variants={fadeIn("up", "tween", 0.5, 0.8)}
         initial="hidden"
@@ -100,7 +100,7 @@ const Footer = () => {
           </p>
         </div>
       </motion.div>
-    </footer>
+    </div>
   );
 };
 

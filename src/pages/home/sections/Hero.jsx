@@ -4,7 +4,7 @@ import { fadeIn } from "../../../utils/motion";
 
 const Hero = () => {
   return (
-    <main className="outterContainer  relative overflow-hidden bg-primaryDark pt-20">
+    <section className="outterContainer relative overflow-hidden bg-primaryDark pt-20 md:pt-[7.5rem]">
       {/* content */}
       <section className=" paddingX text-center lg:flex lg:justify-between lg:gap-[8.5rem] lg:text-left ">
         {/* title */}
@@ -47,7 +47,7 @@ const Hero = () => {
           <div className=" bgImgHomeHero02 h-[6.25rem] w-full"></div>
         </div>
       </div>
-    </main>
+    </section>
   );
 };
 
