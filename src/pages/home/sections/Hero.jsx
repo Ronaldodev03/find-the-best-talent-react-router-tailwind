@@ -27,7 +27,7 @@ const Hero = () => {
           viewport={{ once: true, amount: 0.25 }}
           className=" lg:relative "
         >
-          <p className=" mx-auto max-w-[28.5625rem] pb-[12.3125rem] pt-[1.125rem] text-[0.9375rem] font-semibold leading-7 text-white  lg:max-w-max lg:pt-[4.9375rem] lg:text-[1.125rem]">
+          <p className=" mx-auto max-w-[28.5625rem] pb-[12.3125rem] pt-[1.125rem] text-[0.9375rem] font-semibold leading-7 text-white  md:pb-[15.9375rem] lg:max-w-max lg:pt-[4.9375rem] lg:text-[1.125rem]">
             Finding the right people and building high performing teams can be
             hard. Most companies aren’t tapping into the abundance of global
             talent. We’re about to change that.
