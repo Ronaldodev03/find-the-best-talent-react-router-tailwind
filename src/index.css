@@ -95,7 +95,7 @@ input:-webkit-autofill:active {
   }
 
   .slide-in {
-    @apply fixed left-0 top-0 h-screen w-full origin-bottom bg-secondaryDarkestGreen;
+    @apply fixed left-0 top-0 h-screen w-full origin-bottom bg-primaryDark;
   }
 
   .slide-out {
