@@ -10,7 +10,7 @@ const Clients = () => {
         variants={textVariant}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: true, amount: 0.25 }}
         className=" pb-16 text-center text-[2rem] font-bold leading-8 text-white md:pb-12 lg:text-5xl lg:leading-[3rem]"
       >
         Some of our clients

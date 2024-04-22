@@ -11,7 +11,7 @@ const Directors = () => {
         variants={textVariant}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: true, amount: 0.25 }}
       >
         <h2 className=" text-center text-[clamp(2rem,3.5vw+0.25rem,3rem)] font-bold leading-10 text-white  lg:text-5xl lg:leading-[3rem]  ">
           Meet the directors

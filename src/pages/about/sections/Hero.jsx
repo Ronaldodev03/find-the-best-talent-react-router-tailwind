@@ -18,7 +18,7 @@ const Hero = () => {
 
         {/* paragraph */}
         <motion.div
-          variants={fadeIn("left", "tween", 0.6, 1)}
+          variants={fadeIn("left", "tween", 0, 1)}
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.25 }}

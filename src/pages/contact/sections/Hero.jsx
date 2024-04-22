@@ -58,7 +58,7 @@ const Hero = () => {
       >
         <FormComponent errors={errors} />
         <motion.button
-          variants={fadeIn("left", "tween", 0.5, 0.8)}
+          variants={fadeIn("left", "tween", 0, 0.8)}
           initial="hidden"
           whileInView="show"
           type="submit"

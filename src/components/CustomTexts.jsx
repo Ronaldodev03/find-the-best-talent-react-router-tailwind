@@ -20,7 +20,7 @@ export const TitleText = ({ title }) => (
     variants={textVariant}
     initial="hidden"
     whileInView="show"
-    viewport={{ false: true, amount: 0.25 }}
+    viewport={{ once: true, amount: 0.25 }}
   >
     {title}
   </motion.div>

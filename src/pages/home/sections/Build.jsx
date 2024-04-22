@@ -14,7 +14,7 @@ const Build = () => {
           variants={textVariant}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
+          viewport={{ once: true, amount: 0.25 }}
           className="relative  "
         >
           {/* title */}
